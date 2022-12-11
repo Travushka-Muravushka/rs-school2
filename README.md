@@ -1,1 +1,1 @@
-https://Travushka-Muravushka.github.io/rsschool-cv2/
+https://Travushka-Muravushka.github.io/rsschool-cv/
