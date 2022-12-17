@@ -1,1 +1,4 @@
-some great text
+@font-face {
+  font-family: BebasNeue-Regular;
+  src: url("assets/fonts/BebasNeue-Regular.ttf");
+}
