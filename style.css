@@ -37,8 +37,10 @@ body {
   list-style: none;
 }
 
+.nav-item {
+  padding: 0 60px;
+}
+
 html {
   scroll-behavior: smooth;
 }
-
-
