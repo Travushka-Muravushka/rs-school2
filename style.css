@@ -40,6 +40,9 @@ body {
 .nav-link {
   padding: 0 20px;
   line-height: 50px;
+  text-decoration: none;
+  font-size: 150%;
+  color: aquamarine;
 }
 
 
