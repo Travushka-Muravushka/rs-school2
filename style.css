@@ -1,10 +1,27 @@
-@font-face {
-  font-family: BebasNeue-Regular;
-  src: url("assets/fonts/BebasNeue-Regular.ttf");
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .header {
@@ -19,15 +36,9 @@
   border: 1px solid red;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.container {
-  max-width: 1440px;
-  margin: 0 auto;
+@font-face {
+  font-family: BebasNeue-Regular;
+  src: url("assets/fonts/BebasNeue-Regular.ttf");
 }
 
 .nav-list {
@@ -43,10 +54,6 @@ body {
   line-height: 50px;
   text-decoration: none;
   font-size: 150%;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 .nav-item a {
@@ -77,17 +84,11 @@ html {
   color: #86bfb0;
   font-size: 100%;
 }
-.main-container {
-  display: flex;
-  flex-wrap: wrap;
-}
 
 .section {
   width: 50%;
 }
 
-@media (max-width: 768px) {
-  .section {
-    width: 100%;
-  }
+html {
+  scroll-behavior: smooth;
 }
