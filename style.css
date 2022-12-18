@@ -57,3 +57,11 @@ html {
   color: #690606;
 }
 
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+}
