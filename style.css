@@ -35,6 +35,11 @@ body {
   margin: 0 auto;
 }
 
+.github-img {
+  width: 30px;
+  height: auto;
+}
+
 .header {
   background-color: #265871;
 }
