@@ -25,6 +25,11 @@ body {
   height: auto;
 }
 
+.rs-school-img {
+  width: 100px;
+  height: auto;
+}
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
@@ -48,7 +53,6 @@ body {
 }
 
 .nav-list {
-  display: flex;
   justify-content: flex-end;
   align-items: center;
   list-style: none;
@@ -67,6 +71,7 @@ body {
   text-decoration: none;
   transition: color 0.3s;
 }
+
 .nav-item a:hover {
   color: #690606;
 }
