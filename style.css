@@ -36,15 +36,14 @@ body {
 }
 
 .header {
-  border: 1px solid red;
+  background-color: #265871;
 }
 
 .main {
-  border: 1px solid red;
 }
 
 .footer {
-  border: 1px solid red;
+  background-color: #265871;
 }
 
 @font-face {
