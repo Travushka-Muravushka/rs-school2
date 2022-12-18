@@ -42,10 +42,17 @@ body {
   line-height: 50px;
   text-decoration: none;
   font-size: 150%;
-  color: aquamarine;
 }
-
 
 html {
   scroll-behavior: smooth;
+}
+
+.nav-item a {
+  color: #42b797;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.nav-item a:hover {
+  color: #690606;
 }
