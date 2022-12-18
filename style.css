@@ -40,6 +40,7 @@ body {
 }
 
 .main {
+  background-color: white;
 }
 
 .footer {
@@ -50,7 +51,10 @@ body {
   font-family: BebasNeue-Regular;
   src: url("assets/fonts/BebasNeue-Regular.ttf");
 }
-
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(assets/fonts/OpenSans-Regular.ttf);
+}
 .nav-list {
   display: flex;
   justify-content: flex-end;
@@ -90,6 +94,9 @@ body {
   color: #42b797;
 }
 
+.section-list {
+  font-family: OpenSans-Regular;
+}
 .section-subtitle {
   font-family: BebasNeue-Regular;
   color: #86bfb0;
