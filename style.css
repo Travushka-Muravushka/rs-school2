@@ -86,11 +86,35 @@ body {
   height: 94px;
 }
 
+.section-service__title_green {
+  width: 306px;
+  height: 94px;
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499a18;
+}
+
+.button_orange {
+  border: 1px solid #e06733;
+  border-radius: 5px;
+  width: 161px;
+  height: 50px;
+  background: #edf2ec;
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #e06733;
+}
+
 .section-prices {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
   width: 1440px;
   height: 560px;
   background: #ffffff;
@@ -105,7 +129,6 @@ body {
   background: #edf2ec;
 }
 
-
 .footer-container {
   display: flex;
   flex-direction: row;
@@ -114,16 +137,14 @@ body {
   width: 1222px;
   height: 130px;
   background: #ffffff;
-
-
 }
-.footer__data-git{
+.footer__data-git {
   display: flex;
   justify-content: space-between;
   width: 169px;
 }
 
-.footer__icons{
+.footer__icons {
   display: flex;
   justify-content: space-between;
   width: 183px;
@@ -134,8 +155,6 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
-
 
 .nav__list {
   display: flex;
