@@ -105,9 +105,28 @@ body {
   background: #edf2ec;
 }
 
+
 .footer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1222px;
   height: 130px;
   background: #ffffff;
+
+
+}
+.footer__data-git{
+  display: flex;
+  justify-content: space-between;
+  width: 169px;
+}
+
+.footer__icons{
+  display: flex;
+  justify-content: space-between;
+  width: 183px;
 }
 
 .header-container {
@@ -115,6 +134,8 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
+
 
 .nav__list {
   display: flex;
