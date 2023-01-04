@@ -6,12 +6,63 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 0;
-  padding: 0;
-  min-height: 100hv;
 }
 
 .container {
+  display: flex;
+  flex-wrap: wrap;
   max-width: 1440px;
   margin: 0 auto;
+}
+
+.header {
+  height: 134px;
+  background: #edf2ec;
+}
+
+.section-welcome {
+  height: 532px;
+  background: #edf2ec;
+}
+
+.section-about {
+  height: 666px;
+  background: #ffffff;
+}
+
+.section-service {
+  height: 1300px;
+  background: #edf2ec;
+}
+
+.section-prices {
+  height: 560px;
+  background: #ffffff;
+}
+
+.section-contacts {
+  height: 550px;
+  background: #edf2ec;
+}
+
+.footer-container {
+  height: 130px;
+  background: #ffffff;
+}
+
+.footer{
+  height: 130px;
+  background: #ffffff;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 452px;
 }
