@@ -20,15 +20,11 @@ body {
   background: #edf2ec;
 }
 
-
-
-
-
-
 .section-welcome {
   display: flex;
+  align-items: center;
   justify-content: space-around;
-
+  width: 1440px;
   height: 532px;
   background: #edf2ec;
 }
@@ -43,43 +39,73 @@ body {
   height: 340px;
 }
 
-
-
-
-
-
 .section-about {
   display: flex;
-  width: 1440px;
+  align-items: center;
   justify-content: space-around;
+  width: 1440px;
   height: 666px;
   background: #ffffff;
 }
 
+.section-about__text {
+  width: 605px;
+  height: 350px;
+}
 
-
+.section-about__img {
+  width: 464px;
+  height: 479px;
+}
 
 .section-service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 1440px;
   height: 1300px;
   background: #edf2ec;
 }
 
+.section-service__items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 1222px;
+  height: 955px;
+}
+
+.section-service__text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1007px;
+  height: 94px;
+}
+
 .section-prices {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1440px;
   height: 560px;
   background: #ffffff;
 }
 
 .section-contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1440px;
   height: 550px;
   background: #edf2ec;
 }
 
 .footer-container {
-  height: 130px;
-  background: #ffffff;
-}
-
-.footer {
   height: 130px;
   background: #ffffff;
 }
@@ -97,4 +123,3 @@ body {
   width: 452px;
   list-style: none;
 }
-
