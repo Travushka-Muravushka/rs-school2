@@ -20,15 +20,44 @@ body {
   background: #edf2ec;
 }
 
+
+
+
+
+
 .section-welcome {
+  display: flex;
+  justify-content: space-around;
+
   height: 532px;
   background: #edf2ec;
 }
 
+.section-welcome__img {
+  width: 449px;
+  height: 407px;
+}
+
+.section-welcome__text {
+  width: 549px;
+  height: 340px;
+}
+
+
+
+
+
+
 .section-about {
+  display: flex;
+  width: 1440px;
+  justify-content: space-around;
   height: 666px;
   background: #ffffff;
 }
+
+
+
 
 .section-service {
   height: 1300px;
@@ -50,7 +79,7 @@ body {
   background: #ffffff;
 }
 
-.footer{
+.footer {
   height: 130px;
   background: #ffffff;
 }
@@ -58,6 +87,7 @@ body {
 .header-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav__list {
@@ -65,4 +95,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   width: 452px;
+  list-style: none;
 }
+
